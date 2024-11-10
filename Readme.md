@@ -31,7 +31,7 @@ Para ver que todo se haya ido editando correctamente podremos hacer un:
 
 ```
 
-![Config Nano](imagenes\Config_Nano.png)
+![Config Nano](imagenes/Config_Nano.png)
 Configura la visualización de git diff y git log para mostrar todo el mensaje sin un editor adicional:
 
 ```bash
