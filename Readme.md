@@ -32,6 +32,7 @@ Para ver que todo se haya ido editando correctamente podremos hacer un:
 ```
 
 ![Config Nano](imagenes/Config_Nano.png)
+
 Configura la visualización de git diff y git log para mostrar todo el mensaje sin un editor adicional:
 
 ```bash
@@ -44,7 +45,7 @@ Comprueba las variables de configuración de Git:
 git config --help
 ```
 
-![Help](imagenes\help.png)
+![Help](imagenes/help.png)
 
 Ajusta los valores de las variables de color en Git:
 
@@ -55,7 +56,7 @@ git config --global color.interactive auto
 git config --global color.diff auto
 ```
 
-![Conf](imagenes\Configuraciones_Git.png)
+![Conf](imagenes/Configuraciones_Git.png)
 
 ## 2. Creación de Proyecto y repositorio
 
@@ -89,7 +90,7 @@ Subiremos el proyecto a GitHub:
 git push -u origin master
 ```
 
-![Subida del repositorio](imagenes\Subidad_Repo.png)
+![Subida del repositorio](imagenes/Subidad_Repo.png)
 
 ## 3. Iniciando Proyecto
 
@@ -111,7 +112,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     tree -a
     ```
 
-    ![Subida del repositorio](imagenes\Tree.png)
+    ![Subida del repositorio](imagenes/Tree.png)
 
 3. Como mencioné anteriormente, al principio no he añadido nada a la carpeta, por lo que al ejecutar el siguiente comando, el estado de Git debería mostrar los archivos pendientes de agregar:
 
@@ -119,7 +120,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git status -s
     ```
 
-    ![Subida del repositorio](imagenes\Git_Status.png)
+    ![Subida del repositorio](imagenes/Git_Status.png)
 
 ---
 
@@ -167,7 +168,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     Excluded/
     ```
 
-    ![Subida del repositorio](imagenes\Nano.png)
+    ![Subida del repositorio](imagenes/Nano.png)
 
 5. **Verificar que los archivos están siendo ignorados**:
 
@@ -177,7 +178,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git status -s
     ```
 
-    ![Subida del repositorio](imagenes\Git_Status2.png)
+    ![Subida del repositorio](imagenes/Git_Status2.png)
 
 ## 4. Trabajo con Git
 
@@ -201,7 +202,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     <H1>Hola SergioMorato¡¡¡ ¿Qué tal te encuentras?</H1>
     ```
 
-      ![Subida del repositorio](imagenes\HYML.png)
+      ![Subida del repositorio](imagenes/HYML.png)
     Guarda y cierra el archivo.
 
 3. **Visualiza el estado del proyecto**:
@@ -211,7 +212,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git status --short
     ```
 
-      ![Subida del repositorio](imagenes\Git_Status3.png)
+      ![Subida del repositorio](imagenes/Git_Status3.png)
 
 4. **Añade el archivo `index.html` al proyecto**:
     Usa el comando `git add` para añadir el archivo `index.html` al área de preparación (staging).
@@ -234,7 +235,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git status --short
     ```
 
-      ![Subida del repositorio](imagenes\Git_Status4.png)
+      ![Subida del repositorio](imagenes/Git_Status4.png)
 7. **Sube los cambios a tu repositorio de GitHub**:
     Finalmente, sube tus cambios al repositorio remoto en GitHub con el siguiente comando:
 
@@ -242,7 +243,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git push
     ```
 
-      ![Subida del repositorio](imagenes\Git_Push.png)
+      ![Subida del repositorio](imagenes/Git_Push.png)
 
 ## 5. Creación de nuestro servidor web y visualización de nuestro proyecto
 
@@ -273,7 +274,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
 
     Aquí verás el mensaje de "Hola SergioMorato¡¡¡ ¿Qué tal te encuentras?" que creaste en el archivo `index.html`.
 
-      ![Subida del repositorio](imagenes\Server_PHP.png)
+      ![Subida del repositorio](imagenes/Server_PHP.png)
 
 ## 6. Seguimos Trabajando con Git
 
@@ -298,7 +299,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git status -s
     ```
 
-      ![Subida del repositorio](imagenes\Git_Status5.png)
+      ![Subida del repositorio](imagenes/Git_Status5.png)
 
 4. **Comprueba las diferencias de los archivos que no han sido añadidos**:
     Para ver qué cambios has realizado en `index.html` y otras modificaciones, ejecuta:
@@ -307,12 +308,12 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git diff
     ```
 
-      ![Subida del repositorio](imagenes\Git_Diff.png)
+      ![Subida del repositorio](imagenes/Git_Diff.png)
 
 5. **Refresca el navegador para comprobar que ha cambiado el contenido de nuestra página web**:
     Abre tu navegador y actualiza la página (`Ctrl+R` o `Cmd+R` en macOS) para ver cómo ha cambiado el contenido.
 
-      ![Subida del repositorio](imagenes\Server_PHP2.png)
+      ![Subida del repositorio](imagenes/Server_PHP2.png)
 
 6. **Vuelve a la versión anterior del archivo `index.html`**:
     Si deseas revertir los cambios que hiciste en `index.html`, puedes usar el siguiente comando:
@@ -324,7 +325,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
 7. **Vuelve a refrescar el navegador para ver cómo vuelve a la versión inicial**:
     Actualiza nuevamente la página en tu navegador para ver el contenido original del archivo.
 
-      ![Subida del repositorio](imagenes\Git_restore.png)
+      ![Subida del repositorio](imagenes/Git_restore.png)
 
 8. **Utiliza el comando `git mv` para sobreescribir el archivo `index.html` con `index.html.save`**:
     Renombra el archivo `index.html.save` para reemplazar el archivo original `index.html`:
@@ -340,7 +341,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git status -s
     ```
 
-      ![Subida del repositorio](imagenes\Git_Status5.png)
+      ![Subida del repositorio](imagenes/Git_Status5.png)
 
 10. **Haz un push y comprueba cómo han subido los archivos a GitHub**:
     Para subir los cambios al repositorio remoto en GitHub, usa el siguiente comando:
@@ -354,7 +355,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
 11. **Modifica el archivo `index.php` desde la página de GitHub.com**:
     Accede a tu repositorio en GitHub y edita directamente el archivo `index.php` desde la interfaz web de GitHub.
 
-      ![Subida del repositorio](imagenes\index.png)
+      ![Subida del repositorio](imagenes/index.png)
 
 12. **Haz un pull y comprueba cómo se ha modificado la página web en nuestro navegador**:
     Vuelve a tu terminal y ejecuta el siguiente comando para descargar los cambios de GitHub:
@@ -363,7 +364,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git pull
     ```
 
-      ![Subida del repositorio](imagenes\Git_Push2.png)
+      ![Subida del repositorio](imagenes/Git_Push2.png)
 
 ## 7. Trabajando con los Logs en Git
 
@@ -377,7 +378,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git log
     ```
 
-      ![Subida del repositorio](imagenes\Git_log.png)
+      ![Subida del repositorio](imagenes/Git_log.png)
 
     Este comando te mostrará una lista de todas las confirmaciones en el repositorio.
 
@@ -388,7 +389,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git log -n 3
     ```
 
-      ![Subida del repositorio](imagenes\Git_log2.png)
+      ![Subida del repositorio](imagenes/Git_log2.png)
 
     Esto te mostrará los detalles de las tres últimas confirmaciones realizadas en el repositorio.
 
@@ -399,7 +400,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git log --pretty=oneline
     ```
 
-      ![Subida del repositorio](imagenes\Git_log3.png)
+      ![Subida del repositorio](imagenes/Git_log3.png)
 
     Esto te dará una vista compacta de los commits, mostrando un solo registro por cada commit.
 
@@ -410,7 +411,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git log -n 2 --stat
     ```
 
-      ![Subida del repositorio](imagenes\Git_log4.png)
+      ![Subida del repositorio](imagenes/Git_log4.png)
 
     Esto mostrará un resumen de los dos últimos commits, junto con las diferencias (cambios) que se realizaron en cada uno.
 
@@ -421,7 +422,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git log --since="1 day ago"
     ```
 
-      ![Subida del repositorio](imagenes\Git_log5.png)
+      ![Subida del repositorio](imagenes/Git_log5.png)
     Este comando te mostrará todas las confirmaciones que se han hecho en las últimas 24 horas.
 
 ## 8. Trabajando con Ramas en Git
@@ -433,7 +434,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git branch
     ```
 
-      ![Subida del repositorio](imagenes\Git_Branch.png)
+      ![Subida del repositorio](imagenes/Git_Branch.png)
 
     Este comando te mostrará todas las ramas locales del repositorio. La rama actual estará indicada con un asterisco (`*`).
 
@@ -469,7 +470,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git commit -m "Modificación en index.html en la rama Vers1"
     ```
 
-      ![Subida del repositorio](imagenes\Git_Branch2.png)
+      ![Subida del repositorio](imagenes/Git_Branch2.png)
       *Aquí he decidido adjuntar varias capturas ya que de una a uno lo veia coherente.
     Luego, sube estos cambios al repositorio remoto a la rama `Vers1` usando el siguiente comando:
 
@@ -477,7 +478,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
     git push origin Vers1
     ```
 
-      ![Subida del repositorio](imagenes\Git_Push_origin.png)
+      ![Subida del repositorio](imagenes/Git_Push_origin.png)
 
     Esto empujará los cambios a la rama `Vers1` en tu repositorio remoto de GitHub.
 
