@@ -31,7 +31,7 @@ Para ver que todo se haya ido editando correctamente podremos hacer un:
 
 ```
 <p align="center">
-![Config Nano](imagenes/Config_Nano.png)
+  <img src="imagenes/Config_Nano.png" alt="Config Nano">
 </p>
 
 Configura la visualización de git diff y git log para mostrar todo el mensaje sin un editor adicional:
