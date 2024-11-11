@@ -46,7 +46,9 @@ Comprueba las variables de configuración de Git:
 git config --help
 ```
 
-![Help](imagenes/help.png)
+<p align="center">
+  <img src="imagenes/help.png" alt="Help">
+</p>
 
 Ajusta los valores de las variables de color en Git:
 
@@ -57,7 +59,9 @@ git config --global color.interactive auto
 git config --global color.diff auto
 ```
 
-![Conf](imagenes/Configuraciones_Git.png)
+<p align="center">
+  <img src="imagenes/Configuraciones_Git.png" alt="Conf">
+</p>
 
 ## 2. Creación de Proyecto y repositorio
 
@@ -91,7 +95,9 @@ Subiremos el proyecto a GitHub:
 git push -u origin master
 ```
 
-![Subida del repositorio](imagenes/Subidad_Repo.png)
+<p align="center">
+  <img src="imagenes/Subidad_Repo.png" alt="Subida del repositorio">
+</p>
 
 ## 3. Iniciando Proyecto
 
