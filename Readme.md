@@ -180,7 +180,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
 
     ![Subida del repositorio](imagenes/Git_Status2.png)
 
-## 4. Trabajo con Git
+## 5. Trabajo con Git
 
 1. **Crea un archivo con nombre `index.html`**:
     Abre tu terminal y usa el siguiente comando para crear el archivo `index.html`.
@@ -245,7 +245,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
 
       ![Subida del repositorio](imagenes/Git_Push.png)
 
-## 5. Creación de nuestro servidor web y visualización de nuestro proyecto
+## 6. Creación de nuestro servidor web y visualización de nuestro proyecto
 
 1. **Abre una nueva pestaña de terminal**:
     Abre una nueva terminal en tu sistema para poder ejecutar el servidor web en paralelo.
@@ -276,7 +276,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
 
       ![Subida del repositorio](imagenes/Server_PHP.png)
 
-## 6. Seguimos Trabajando con Git
+## 7. Seguimos Trabajando con Git
 
 1. **Haz una copia del archivo `index.html` con el nombre `index.html.save`**:
     Copia el archivo `index.html` a un nuevo archivo llamado `index.html.save`. Ejecuta el siguiente comando en la terminal:
@@ -366,7 +366,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
 
       ![Subida del repositorio](imagenes/Git_Push2.png)
 
-## 7. Trabajando con los Logs en Git
+## 8. Trabajando con los Logs en Git
 
 1. **Mira la página de Git Book sobre los comandos `git log`**:
     Para entender mejor cómo funciona `git log`, consulta la [documentación oficial de Git sobre los comandos `git log`](https://git-scm.com/book/es/v2/Fundamentos-de-Git-Ver-el-Historial-de-Confirmaciones).
@@ -425,7 +425,7 @@ Dado que ya tienes la carpeta del proyecto en tu sistema, aquí tienes los pasos
       ![Subida del repositorio](imagenes/Git_log5.png)
     Este comando te mostrará todas las confirmaciones que se han hecho en las últimas 24 horas.
 
-## 8. Trabajando con Ramas en Git
+## 9. Trabajando con Ramas en Git
 
 1. **Lista las ramas existentes**:
     Para ver las ramas que existen en tu repositorio, puedes usar el siguiente comando:
