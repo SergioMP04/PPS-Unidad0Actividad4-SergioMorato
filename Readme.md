@@ -30,8 +30,9 @@ Para ver que todo se haya ido editando correctamente podremos hacer un:
    git config --global --get core.editor
 
 ```
-
+<center>
 ![Config Nano](imagenes/Config_Nano.png)
+</center>
 
 Configura la visualización de git diff y git log para mostrar todo el mensaje sin un editor adicional:
 
